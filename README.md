@@ -1,1 +1,1 @@
-An example of Hero Animation on Swift
+An example of Hero Animation in SwiftUI

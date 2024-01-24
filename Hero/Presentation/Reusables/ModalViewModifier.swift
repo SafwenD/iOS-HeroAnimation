@@ -9,7 +9,6 @@ import SwiftUI
 
 struct ModalViewModifier<Destination: View, Bindable: Identifiable>: ViewModifier {
     @Binding var value: Bindable?
-    @GestureState private var offset: CGFloat = 0
     let destination: (_ value: Bindable) -> Destination
     func body(content: Content) -> some View {
         ZStack(alignment: .top) {

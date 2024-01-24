@@ -12,7 +12,6 @@ struct MovieView: View {
     @Binding var isActive: Bool
     @State private var showCloseButton: Bool = false
     let detailed: Bool
-    @Namespace var namespace
     
     struct ViewConstants {
         static let maxCardHeight: CGFloat = 700
